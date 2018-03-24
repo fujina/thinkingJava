@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"p30_Date","h":"","u":""},{"l":"p33_javaDoc","h":"","u":""}]
