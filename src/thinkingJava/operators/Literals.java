@@ -15,14 +15,14 @@ public class Literals {
 		System.out.println("b: " + Integer.toBinaryString(b));
 		short s = 0x7fff;
 		System.out.println("s: " + Integer.toBinaryString(s));
-		long n1 = 200l;
+		/*long n1 = 200l;
 		long n2 = 200l;
 		long n3 = 200;
 		float f1 = 1;
 		float f2 = 1F;
 		float f3 = 1f;
 		double d1 = 1d;
-		double d2 = 1D;
+		double d2 = 1D;*/
 	}
 }
 /*output
