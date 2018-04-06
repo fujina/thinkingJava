@@ -36,4 +36,7 @@ public class mySwitch {
 
 	}
 
-}
+}/*output:
+1
+Thday is Monday. 
+*/
