@@ -1,6 +1,6 @@
 //: operator/CommaOperator.java
 
-package thinkingJava.operators;
+package thinkingJava.control;
 
 public class CommaOperator {
 
