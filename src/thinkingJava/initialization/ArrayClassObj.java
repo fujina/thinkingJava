@@ -1,7 +1,7 @@
 //: initialization/ArrayClassObj.java
 package thinkingJava.initialization;
 
-import java.util.*;
+import java.util.*;	//Random, Arrays需要用到这个包
 import static net.mindview.util.Print.*;
 
 public class ArrayClassObj {
