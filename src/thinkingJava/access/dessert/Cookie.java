@@ -7,7 +7,7 @@ public class Cookie {
 		System.out.println("Cookie constructor");
 	}
 
-	public void bite() {
-		System.out.println("bite");
+	void bite() {
+		System.out.println("bite~~");
 	}
 }
