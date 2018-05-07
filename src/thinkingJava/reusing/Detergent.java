@@ -7,7 +7,7 @@ import static net.mindview.util.Print.*;
 class Cleanser {
 	private String s = "Cleanser";
 
-	public void append(String a) {
+	public void append(String a) {		//定义append方法,往字符串增加内容
 		s += a;
 	}
 
