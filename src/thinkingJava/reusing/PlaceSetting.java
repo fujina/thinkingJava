@@ -50,14 +50,16 @@ class Custom {
 	}
 }
 
-public class PlaceSetting extends Custom {
+public class PlaceSetting extends Custom {	//必需先初始化Custom
+	//super(i+1);							//这里不能初始化, 只能定义成员及变量
 	private Spoon sp;
 	private Fork frk;
 	private Knife kn;
 	private DinnerPlate pl;
 
-	public PlaceSetting(int i) {
-		super(i +1);
+	public PlaceSetting(int i) {//super(i+1),如果super不运行初始化会出错:
+		super(i +1);			//Implicit super constructor Custom() is undefined. 
+								//Must explicitly invoke another constructor
 		sp = new Spoon(i+2);
 		frk = new Fork(i +3);
 		kn = new Knife(i +4);
