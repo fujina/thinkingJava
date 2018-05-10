@@ -5,25 +5,24 @@ package thinkingJava.reusing;
 import static net.mindview.util.Print.*;
 
 class Creature {
-	void Say() {
+	protected void Say() {
 		print("zi...zi...zi...");
 	}
 }
 
 class Monkey extends Creature {
-	void Say() {
+	protected void Say() {
 		print("banana...banana...banana...");
 	}
 }
 
 class People extends Monkey {
-	void Say() {
+	public void Say() {
 		print("Hello, Nice to meet you.");
 	}
 }
 
 public class Lisa {
-
 	public static void main(String[] args) {
 		Creature c = new Creature();
 		c.Say();
