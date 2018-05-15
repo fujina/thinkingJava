@@ -41,5 +41,7 @@ public class Music2 {
 	}
 
 }/*
-	 * output: Wind.play()MIDDLE_C Stringed.play() MIDDLE_C Brass.play() MIDDLE_C
+	 * output: Wind.play()MIDDLE_C 
+	 * Stringed.play() MIDDLE_C 
+	 * Brass.play() MIDDLE_C
 	 */
