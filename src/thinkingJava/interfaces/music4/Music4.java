@@ -1,6 +1,6 @@
 //: interfaces/music4/Music4.java
 
-package interfaces.music4;
+package thinkingJava.interfaces.music4;
 
 import thinkingJava.polymorphism.music.Note;
 import static net.mindview.util.Print.*;

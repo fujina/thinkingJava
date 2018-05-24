@@ -1,6 +1,6 @@
 //: interfaces/music5/Music5.java
 
-package interfaces.music5;
+package thinkingJava.interfaces.music5;
 
 import thinkingJava.polymorphism.music.Note;
 import static net.mindview.util.Print.*;

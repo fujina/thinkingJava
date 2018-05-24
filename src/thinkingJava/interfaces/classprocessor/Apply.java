@@ -1,6 +1,6 @@
 //: interfaces/classprocessor/Apply.java
 
-package interfaces.classprocessor;
+package thinkingJava.interfaces.classprocessor;
 
 import java.util.*;
 import static net.mindview.util.Print.*;
