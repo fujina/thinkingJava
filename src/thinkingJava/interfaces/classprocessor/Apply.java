@@ -14,7 +14,7 @@ class Processor {
 		return input;
 	}
 }
- 
+
 class Upcase extends Processor {
 	String process(Object input) {
 		return ((String) input).toUpperCase();
