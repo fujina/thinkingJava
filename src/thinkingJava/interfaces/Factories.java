@@ -4,16 +4,16 @@ package thinkingJava.interfaces;
 
 import static net.mindview.util.Print.*;
 
-interface Service {			
+interface Service {			//提供服务方法的 接口			
 	void method1();
 	void method2();
 }
 
-interface ServiceFactory {
+interface ServiceFactory {	//服务工厂
 	Service getService();
 }
 
-class Implementation1 implements Service {
+class Implementation1 implements Service {	//服务履行1
 	Implementation1() {
 	}
 
@@ -26,7 +26,7 @@ class Implementation1 implements Service {
 	}
 }
 
-class Implementation1Factory implements ServiceFactory {
+class Implementation1Factory implements ServiceFactory { //服务履行1的工厂
 	public Service getService() {
 		return new Implementation1();
 	}
