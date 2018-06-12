@@ -1,4 +1,5 @@
 //: strings/InfiniteRecursion.java
+//: javap - c InfiniteRecursion    //to get the JVM code
 
 package thinkingJava.strings;
 
@@ -6,7 +7,7 @@ import java.util.*;
 
 public class InfiniteRecursion {
 	public String toString() {
-		//return " InfiniteRecursion address: " + this + "\n";   	//会出错: 无限递归调用 InfiniteRecursion address:
+		//return " InfiniteRecursion address: " + this + "\n";   	//error
 		return " InfiniteRecursion address: " + super.toString() + "\n"; 
 	}
 
