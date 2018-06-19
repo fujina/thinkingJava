@@ -31,13 +31,13 @@ public class ToyTest {
 	static void printInfo(Class cc) {
 		print("Class name: " + cc.getName() + " is interface? [" + cc.isInterface() + "]");
 		print("Simple name: " + cc.getSimpleName());
-		print("Cononical name : " + cc.getCanonicalName());
+		print("Canonical name : " + cc.getCanonicalName());
 	}
 
 	public static void main(String[] args) {
 		Class c = null;
 		try {
-			c = Class.forName("typeinfo.toys.FancyToy");
+			c = Class.forName("thinkingJava.typeinfo.toys.FancyToy");
 		} catch (ClassNotFoundException e) {
 			print("Can't find FancyToy");
 			System.exit(1);
@@ -45,6 +45,7 @@ public class ToyTest {
 		printInfo(c);
 		for (Class face : c.getInterfaces())
 			printInfo(face);
+		System.out.println();
 		Class up = c.getSuperclass();
 		Object obj = null;
 		try {
