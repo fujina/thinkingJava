@@ -9,23 +9,32 @@
  S、U、V  - 2nd、3rd、4th types			 */
 
 package thinkingJava.typeinfo;
+
 import java.util.*;
 
 class CountedInteger {
 	private static long counter;
 	private final long id = counter++;
-	public String toString() {return Long.toString(id);}
+
+	public String toString() {
+		System.out.println("id   =  " + id);
+		return Long.toString(id);
+	}
 }
 
 public class FilledList<T> {
 	private Class<T> type;
-	public FilledList(Class<T> type ) {this.type = type;}
-	public List<T> create(int nElements){
+
+	public FilledList(Class<T> type) {
+		this.type = type;
+	}
+
+	public List<T> create(int nElements) {
 		List<T> result = new ArrayList<T>();
 		try {
-			for(int i = 0; i < nElements; i++)
+			for (int i = 0; i < nElements; i++)
 				result.add(type.newInstance());
-		}catch(Exception e) {
+		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
 		return result;
