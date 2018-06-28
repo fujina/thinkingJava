@@ -3,7 +3,6 @@
 package net.mindview.util;
 import java.util.*;
 
-
 public class TypeCounter extends HashMap<Class<?>, Integer>{
 	private Class<?> baseType;
 	public TypeCounter<Class<?> baseType){
