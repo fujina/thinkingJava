@@ -48,4 +48,11 @@ public class SimpleProxyDemo {
 		consumer(new RealObject());
 		consumer(new SimpleProxy(new RealObject()));
 	}
-}
+}/*output:
+doSomething
+somethingElse bonobo
+SimpleProxy doSomething
+doSomething
+SimpleProxy somethingElse bonobo
+somethingElse bonobo
+*/

@@ -1,5 +1,6 @@
+/*
 //: typeinfo/TypeCounter.java
-
+ 
 package net.mindview.util;
 import java.util.*;
 
@@ -35,3 +36,4 @@ public class TypeCounter extends HashMap<Class<?>, Integer>{
 		return result.toString();
 	}
 }
+*/
