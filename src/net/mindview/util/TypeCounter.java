@@ -1,5 +1,4 @@
-/*
-//: typeinfo/TypeCounter.java
+/*//: typeinfo/TypeCounter.java
  
 package net.mindview.util;
 import java.util.*;

@@ -1,6 +1,6 @@
 //: generics/TwoTuple.java
 
-package thinkingJava.generics;
+package net.mindview.util;
 
 public class TwoTuple<A,B>{
 	public final A first;
